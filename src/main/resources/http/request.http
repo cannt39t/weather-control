@@ -1,0 +1,24 @@
+POST http://localhost:8081/sign_up
+Content-Type: application/json
+
+{
+  "name": "John Doe",
+  "email": "johndoe@example.com",
+  "password": "password123"
+}
+
+
+###
+POST http://localhost:8081/api/auth/login
+Content-Type: application/json
+
+{
+"email": "johndoe@example.com",
+"password": "password123"
+}
+
+//"accessToken": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJqb2huZG9lQGV4YW1wbGUuY29tIiwiZXhwIjoyMjgzMzAwMTg5LCJyb2xlcyI6W10sImZpcnN0TmFtZSI6IkpvaG4gRG9lIn0.mNl0hSwObJmIaUmJE2SHWqO0f8qi0zuNdc18ebHJVFk",
+
+###
+GET http://localhost:8081/get_weather?city=Kazan
+Authorization:Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJqb2huZG9lQGV4YW1wbGUuY29tIiwiZXhwIjoyMjgzMzAwMTg5LCJyb2xlcyI6W10sImZpcnN0TmFtZSI6IkpvaG4gRG9lIn0.mNl0hSwObJmIaUmJE2SHWqO0f8qi0zuNdc18ebHJVFk
