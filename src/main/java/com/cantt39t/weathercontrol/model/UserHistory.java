@@ -6,6 +6,7 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.util.Date;
 import java.util.Set;
 
 
@@ -25,4 +26,10 @@ public class UserHistory {
 
     private String city;
 
+    private Double temp;
+
+    @Temporal(TemporalType.TIMESTAMP)
+    private Date timestamp;
+
 }
+

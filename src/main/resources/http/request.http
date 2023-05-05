@@ -22,3 +22,8 @@ Content-Type: application/json
 ###
 GET http://localhost:8081/get_weather?city=Kazan
 Authorization:Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJqb2huZG9lQGV4YW1wbGUuY29tIiwiZXhwIjoyMjgzMzAwMTg5LCJyb2xlcyI6W10sImZpcnN0TmFtZSI6IkpvaG4gRG9lIn0.mNl0hSwObJmIaUmJE2SHWqO0f8qi0zuNdc18ebHJVFk
+
+
+###
+GET http://localhost:8081/my_data
+Authorization:Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJqb2huZG9lQGV4YW1wbGUuY29tIiwiZXhwIjoyMjgzMzAwMTg5LCJyb2xlcyI6W10sImZpcnN0TmFtZSI6IkpvaG4gRG9lIn0.mNl0hSwObJmIaUmJE2SHWqO0f8qi0zuNdc18ebHJVFk

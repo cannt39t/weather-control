@@ -44,6 +44,9 @@ dependencies {
     //lombok
     compileOnly("org.projectlombok:lombok:1.18.24")
     annotationProcessor("org.projectlombok:lombok:1.18.24")
+
+    implementation("org.springframework.security:spring-security-oauth2-resource-server:5.8.3")
+
 }
 
 tasks.withType<Test> {
